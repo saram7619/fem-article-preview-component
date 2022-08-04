@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Article preview component</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    </head>
+<body>
+    <div class="[ card ] [ bg-neutral-100 text-align-center br-1 br-2 ]"><!--card-->
+        <div class="grid-even-columns"><!--columns-->
+          <div class="flow"> <!--flow-->
+            <img class="card-draw" src="/images/drawers.jpg" alt="green drawers with a vase with dried branches and a brown pillow beside the drawers.">
+          </div> <!-- end flow-->
+          
+         <div class="flow-two"> <!-- flow-two-->
+          <div class="[ card-heading ] [ grid-flow ] [ padding-24 ] [ padding-26 ]">
+            <p class="[ card-title ] [ text-align-left ] [ fs-heading ] [ text-dark fw-bold ]">Shift the overall look and feel by adding these wonderful 
+            touches to furniture in your home</p>
+      
+              <p class="[ card-content ] text-align-left text-med">Ever been in a room and felt like something was missing? Perhaps 
+                it felt slightly bare and uninviting. I’ve got some simple tips 
+                to help you make any room feel complete.</p>
+          </div><!--end card-heading grid-flow-->
+          <section>
+            <div class="[ flex-row ] [ padding-24 ] [ padding-26 ]">
+                <div>
+                 <img class="card-ava" src="/images/avatar-michelle.jpg" alt="a photo of a person called Ava.">
+                </div>
+                 <div>
+                   <p class="name text-dark fw-bold"> Michelle Appleton</p>
+                   <p class="date text-light [ text-align-left ]">28 Jun 2020</p>
+                 </div>
+                 <button class="button open-button"></button>
+                </div>
+
+                <dialog class="modal" id="modal">
+                    
+                        <p class="share">Share</p>
+                            <a href="#" aria-label="facebook icon" ><img class="icon" src="/images/icon-facebook.svg" alt="facebook icon"></a>
+                            <a href="#" aria-label="twitter icon"><img class="icon" src="/images/icon-twitter.svg" alt="twitter icon"></a>
+                            <a href="#" aria-label="pinterest icon"><img class="icon" src="/images/icon-pinterest.svg" alt="pinterest icon"></a>
+                       
+                        <button class="button close-button"></button>
+                    </dialog>     
+                </section>
+                
+             </div><!-- end flow-two--> 
+        </div><!-- end columns-->
+    </div><!--end card--> 
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Sarah McClelland</a>.
+      </div>  
+
+</body>
+</html>
